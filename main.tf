@@ -1,3 +1,4 @@
+syntax error
 #
 # DO NOT DELETE THESE LINES!
 #
