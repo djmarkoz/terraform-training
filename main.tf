@@ -55,7 +55,7 @@ resource "aws_instance" "web" {
   vpc_security_group_ids = ["sg-c7eb27ad"]
 
   tags {
-    "Identify" = "asas-whale"
+    "Identity" = "asas-whale"
     "Color"    = "blue"
     "Size"     = "large"
     "Name"     = "web ${count.index + 1}/${var.num_web}"
